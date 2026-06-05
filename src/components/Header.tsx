@@ -1,9 +1,10 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
-import { Menu, X, GraduationCap } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { WhatsAppButton } from "./WhatsAppButton";
 
 const NAV_LINKS = [
@@ -20,13 +21,15 @@ export function Header() {
     <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-gray-100">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 md:h-18">
-          <Link href="/" className="flex items-center gap-2 group">
-            <span className="flex items-center justify-center w-10 h-10 rounded-xl bg-[#FF0000] text-white transition-transform group-hover:scale-105">
-              <GraduationCap className="w-5 h-5" />
-            </span>
-            <span className="font-bold text-lg tracking-tight">
-              Teranga<span className="text-[#FF0000]">Tech</span>
-            </span>
+          <Link href="/" className="flex items-center group">
+            <Image
+              src="/logo.png"
+              alt="Teranga Tech"
+              width={148}
+              height={40}
+              className="h-9 md:h-10 w-auto transition-transform group-hover:scale-105"
+              priority
+            />
           </Link>
 
           <nav className="hidden md:flex items-center gap-8">

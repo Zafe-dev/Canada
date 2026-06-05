@@ -1,5 +1,6 @@
+import Image from "next/image";
 import Link from "next/link";
-import { GraduationCap, MapPin } from "lucide-react";
+import { MapPin } from "lucide-react";
 import { ADMISSION_DISCLAIMER } from "@/lib/packs";
 
 export function Footer() {
@@ -8,11 +9,14 @@ export function Footer() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
         <div className="grid md:grid-cols-3 gap-10">
           <div>
-            <div className="flex items-center gap-2 mb-4">
-              <span className="flex items-center justify-center w-10 h-10 rounded-xl bg-[#FF0000]">
-                <GraduationCap className="w-5 h-5" />
-              </span>
-              <span className="font-bold text-lg">Teranga Tech</span>
+            <div className="mb-4">
+              <Image
+                src="/logo.png"
+                alt="Teranga Tech"
+                width={148}
+                height={40}
+                className="h-10 w-auto rounded-lg bg-white/95 p-1.5"
+              />
             </div>
             <p className="text-gray-400 text-sm leading-relaxed">
               Agence d&apos;accompagnement pour étudiants africains souhaitant intégrer un CEGEP au
