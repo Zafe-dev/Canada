@@ -11,11 +11,11 @@ export function Footer() {
           <div>
             <div className="mb-4">
               <Image
-                src="/logo.png"
+                src="/application.png"
                 alt="Teranga Tech"
-                width={148}
-                height={40}
-                className="h-10 w-auto rounded-lg bg-white/95 p-1.5"
+                width={296}
+                height={161}
+                className="h-14 md:h-16 w-auto"
               />
             </div>
             <p className="text-gray-400 text-sm leading-relaxed">
