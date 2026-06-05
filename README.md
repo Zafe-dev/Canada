@@ -1,4 +1,4 @@
-# CanadaÉducation — Accompagnement CEGEP Canada
+# Teranga Tech — Accompagnement CEGEP Canada
 
 Site web premium pour agence d'accompagnement éducatif (étudiants africains → CEGEP au Canada).
 

@@ -5,7 +5,7 @@ import { DisclaimerBanner } from "@/components/DisclaimerBanner";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
 
 export const metadata: Metadata = {
-  title: "Nos Packs - Accompagnement CEGEP Canada",
+  title: "Nos Packs - Teranga Tech",
   description:
     "Pack Starter, Standard et Premium — accompagnement accessible pour étudiants africains. Tarifs en FCFA.",
 };

@@ -12,7 +12,7 @@ export function Footer() {
               <span className="flex items-center justify-center w-10 h-10 rounded-xl bg-[#FF0000]">
                 <GraduationCap className="w-5 h-5" />
               </span>
-              <span className="font-bold text-lg">CanadaÉducation</span>
+              <span className="font-bold text-lg">Teranga Tech</span>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed">
               Agence d&apos;accompagnement pour étudiants africains souhaitant intégrer un CEGEP au
@@ -58,7 +58,7 @@ export function Footer() {
             {ADMISSION_DISCLAIMER}
           </p>
           <p className="text-xs text-gray-600 mt-4">
-            © {new Date().getFullYear()} CanadaÉducation. Service d&apos;accompagnement uniquement.
+            © {new Date().getFullYear()} Teranga Tech. Service d&apos;accompagnement uniquement.
           </p>
         </div>
       </div>

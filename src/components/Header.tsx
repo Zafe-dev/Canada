@@ -25,7 +25,7 @@ export function Header() {
               <GraduationCap className="w-5 h-5" />
             </span>
             <span className="font-bold text-lg tracking-tight">
-              Canada<span className="text-[#FF0000]">Éducation</span>
+              Teranga<span className="text-[#FF0000]">Tech</span>
             </span>
           </Link>
 

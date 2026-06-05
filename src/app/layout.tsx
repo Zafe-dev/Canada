@@ -10,7 +10,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Accompagnement Études au Canada - CEGEP",
+  title: "Accompagnement Études au Canada - Teranga Tech",
   description:
     "Service d'accompagnement pour étudiants africains souhaitant intégrer un CEGEP au Canada",
   keywords: [
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     "admission CEGEP",
   ],
   openGraph: {
-    title: "Accompagnement Études au Canada - CEGEP",
+    title: "Accompagnement Études au Canada - Teranga Tech",
     description:
       "Service d'accompagnement pour étudiants africains souhaitant intégrer un CEGEP au Canada",
     type: "website",

@@ -3,7 +3,7 @@ import { DisclaimerBanner } from "@/components/DisclaimerBanner";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
 
 export const metadata: Metadata = {
-  title: "Mentions légales & Contrat - CEGEP Canada",
+  title: "Mentions légales & Contrat - Teranga Tech",
   description:
     "Conditions générales, contrat client et informations légales sur notre service d'accompagnement CEGEP.",
 };
@@ -26,7 +26,7 @@ export default function LegalPage() {
             <h2 className="text-xl font-bold text-[#111111] mb-4">Conditions générales</h2>
             <ul className="space-y-3 text-gray-700 text-sm leading-relaxed list-none p-0">
               <li className="pl-4 border-l-2 border-[#FF0000]">
-                <strong>Nature du service :</strong> CanadaÉducation fournit un service
+                <strong>Nature du service :</strong> Teranga Tech fournit un service
                 d&apos;accompagnement éducatif (conseil, préparation de dossier, suivi). Nous ne
                 sommes pas un établissement d&apos;enseignement canadien ni un organisme
                 d&apos;immigration.
