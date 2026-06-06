@@ -30,7 +30,7 @@ export function Hero() {
 
           <p className="text-lg md:text-xl text-gray-300 leading-relaxed mb-8 max-w-2xl">
             Agence spécialisée pour étudiants africains — du choix du CEGEP à la soumission de votre
-            dossier. Un service premium, accessible et 100 % à distance via WhatsApp.
+            dossier. Un service premium, accessible et 100 % à distance.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4">
