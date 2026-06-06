@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { PACKS } from "@/lib/packs";
+import { PACKS, PACKS_PRICING_NOTE } from "@/lib/packs";
 import { PackCard } from "@/components/PackCard";
 import { DisclaimerBanner } from "@/components/DisclaimerBanner";
 import { WhatsAppButton } from "@/components/WhatsAppButton";
@@ -36,8 +36,11 @@ export default function PacksPage() {
             ))}
           </div>
 
-          <div className="mt-12 md:mt-16">
+          <div className="mt-12 md:mt-16 space-y-6">
             <DisclaimerBanner />
+            <p className="text-center text-sm text-gray-500 max-w-3xl mx-auto leading-relaxed">
+              {PACKS_PRICING_NOTE}
+            </p>
           </div>
 
           <div className="mt-10 text-center">

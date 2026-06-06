@@ -13,45 +13,57 @@ export interface Pack {
 
 export const PACKS: Pack[] = [
   {
-    id: "starter",
-    name: "Pack Starter",
+    id: "essentiel",
+    name: "Pack Essentiel",
     emoji: "🟢",
-    priceRange: "30 000 – 60 000 FCFA",
-    description: "Idéal pour démarrer votre projet d'études au Canada avec un budget accessible.",
+    priceRange: "79 000 – 129 000 FCFA",
+    description:
+      "L'essentiel pour structurer votre projet d'études au Canada avec un accompagnement professionnel.",
     features: [
-      "Aide au choix du CEGEP",
-      "Création du dossier de candidature",
+      "Analyse complète du profil",
+      "Choix stratégique du programme",
+      "Sélection du meilleur cégep",
       "Vérification des documents",
-      "1 à 3 candidatures",
+      "Création du dossier d'admission",
+      "Conseils personnalisés",
     ],
     color: "green",
   },
   {
-    id: "standard",
-    name: "Pack Standard",
-    emoji: "🔵",
-    priceRange: "80 000 – 150 000 FCFA",
-    description: "Notre formule la plus demandée — accompagnement complet et suivi personnalisé.",
+    id: "premium",
+    name: "Pack Premium",
+    emoji: "⭐",
+    priceRange: "199 000 – 299 000 FCFA",
+    description:
+      "Notre formule la plus demandée — accompagnement renforcé jusqu'à la décision d'admission.",
     features: [
-      "Tout le Pack Starter",
-      "Jusqu'à 5 CEGEP ciblés",
-      "Rédaction lettre de motivation",
-      "Suivi WhatsApp dédié",
+      "Tout le Pack Essentiel",
+      "Optimisation du dossier",
+      "Lettre de motivation professionnelle",
+      "Préparation au test de français",
+      "Assistance pour les documents financiers",
+      "Support WhatsApp prioritaire",
+      "Suivi complet jusqu'à la décision d'admission",
     ],
     popular: true,
     color: "blue",
   },
   {
-    id: "premium",
-    name: "Pack Premium",
+    id: "vip",
+    name: "Pack VIP",
     emoji: "👑",
-    priceRange: "150 000 – 300 000 FCFA",
-    description: "Accompagnement premium jusqu'à l'admission — stratégie sur mesure.",
+    priceRange: "399 000 – 699 000 FCFA",
+    description:
+      "Accompagnement haut de gamme avec conseiller dédié jusqu'aux autorisations d'études.",
     features: [
-      "Accompagnement complet",
-      "Stratégie personnalisée",
-      "Suivi jusqu'à admission",
-      "Optimisation maximale du dossier",
+      "Tout le Pack Premium",
+      "Stratégie d'admission personnalisée",
+      "Préparation CAQ",
+      "Préparation permis d'études",
+      "Révision complète des formulaires",
+      "Coaching entretien (si nécessaire)",
+      "Conseiller dédié",
+      "Accompagnement jusqu'à l'obtention des autorisations d'études",
     ],
     color: "gold",
   },
@@ -59,3 +71,6 @@ export const PACKS: Pack[] = [
 
 export const ADMISSION_DISCLAIMER =
   "L'admission dans les CEGEP dépend exclusivement des établissements canadiens. Nous ne garantissons pas l'admission, mais nous optimisons votre dossier pour maximiser vos chances.";
+
+export const PACKS_PRICING_NOTE =
+  "Les agences d'accompagnement aux études à l'étranger proposent souvent des forfaits allant de quelques centaines à plusieurs milliers d'euros ou dollars selon le niveau de service et le suivi personnalisé.";

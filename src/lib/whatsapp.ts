@@ -1,14 +1,14 @@
 import { WHATSAPP_NUMBER } from "./config";
 
-export type PackId = "starter" | "standard" | "premium";
+export type PackId = "essentiel" | "premium" | "vip";
 
 const PACK_MESSAGES: Record<PackId, string> = {
-  starter:
-    "Bonjour, je souhaite être accompagné pour le Pack Starter CEGEP Canada. Merci de me préciser les prochaines étapes.",
-  standard:
-    "Bonjour, je souhaite être accompagné pour le Pack Standard CEGEP Canada. Merci de me préciser les prochaines étapes.",
+  essentiel:
+    "Bonjour, je souhaite être accompagné pour le Pack Essentiel CEGEP Canada. Merci de me préciser les prochaines étapes.",
   premium:
     "Bonjour, je souhaite être accompagné pour le Pack Premium CEGEP Canada. Merci de me préciser les prochaines étapes.",
+  vip:
+    "Bonjour, je souhaite être accompagné pour le Pack VIP CEGEP Canada. Merci de me préciser les prochaines étapes.",
 };
 
 export function getWhatsAppUrl(packId?: PackId, customMessage?: string): string {

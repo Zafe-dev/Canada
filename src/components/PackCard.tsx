@@ -50,7 +50,14 @@ export function PackCard({ pack }: PackCardProps) {
           </span>
         </div>
 
-        <h3 className="text-2xl font-bold text-[#111111] mb-2">{pack.name}</h3>
+        <h3 className="text-2xl font-bold text-[#111111] mb-2">
+          {pack.name}
+          {pack.emoji !== "🟢" && (
+            <span className="ml-1.5" aria-hidden>
+              {pack.emoji}
+            </span>
+          )}
+        </h3>
         <p className="text-2xl md:text-3xl font-extrabold text-[#FF0000] mb-3">{pack.priceRange}</p>
         <p className="text-gray-600 text-sm mb-6 leading-relaxed">{pack.description}</p>
 
